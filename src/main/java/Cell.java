@@ -6,8 +6,12 @@ public class Cell {
 
     static final int CELL_WALL = 0;
     static final int CELL_EMPTY = 1;
+    static final int CELL_BEACON = 2;
 
     int type;
-    boolean beacon;
+    int x;
+    int y;
+
+    int beaconCount = 0;
 
 }

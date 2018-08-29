@@ -30,6 +30,9 @@ public class InputParser {
                 } else {
                     map[curRow][curCol] = new Cell(Cell.CELL_EMPTY);
                 }
+
+                map[curRow][curCol].x = curRow;
+                map[curRow][curCol].y = curCol;
             }
         }
 
